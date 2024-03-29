@@ -1,0 +1,116 @@
+/* globals */
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+html {
+  background-color: #252525;
+  color: #f3f3f3;
+  padding: 12px;
+}
+input {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(97, 32, 158);
+  color: black;
+  font-size: 1.2rem;
+  outline: none;
+  padding: 10px 15px;
+  width: 100%;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 3rem;
+  margin-bottom: 5px;
+}
+
+/* card */
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  align-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-direction: column;
+  height: 0%;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  overflow: hidden;
+  max-width: 220px;
+}
+.card p {
+  background-color: white;
+  color: #333;
+  flex: 1;
+  margin-top: 5px;
+  padding: 5px 20px 0px 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.card img {
+  width: 100%;
+}
+
+/* fade */
+.fade-in {
+  transition: all 0.6s;
+  animation: fadeIn 0.6s;
+  -webkit-animation: fadeIn 0.6s;
+  -moz-animation: fadeIn 0.6s;
+  -o-animation: fadeIn 0.6s;
+  -ms-animation: fadeIn 0.6s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
